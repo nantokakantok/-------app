@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "calendar-app", "calendar-app", "{21B21328-68E6-630A-524F-EE944C1149C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F14F8F41-54AC-AF8D-8026-AE9C0F1EFEC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{A547FC50-6262-0637-6A80-70B4CFB29DFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarApp.Api", "calendar-app\src\backend\CalendarApp.Api\CalendarApp.Api.csproj", "{66EE30C6-ACB1-3D2A-65AD-5ABC9E4AA022}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66EE30C6-ACB1-3D2A-65AD-5ABC9E4AA022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66EE30C6-ACB1-3D2A-65AD-5ABC9E4AA022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66EE30C6-ACB1-3D2A-65AD-5ABC9E4AA022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66EE30C6-ACB1-3D2A-65AD-5ABC9E4AA022}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F14F8F41-54AC-AF8D-8026-AE9C0F1EFEC9} = {21B21328-68E6-630A-524F-EE944C1149C8}
+		{A547FC50-6262-0637-6A80-70B4CFB29DFF} = {F14F8F41-54AC-AF8D-8026-AE9C0F1EFEC9}
+		{66EE30C6-ACB1-3D2A-65AD-5ABC9E4AA022} = {A547FC50-6262-0637-6A80-70B4CFB29DFF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25879766-5DC6-46FD-BC08-76C01992C399}
+	EndGlobalSection
+EndGlobal
